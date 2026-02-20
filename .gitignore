@@ -1,3 +1,23 @@
+# wave files
+*.wav
+
+# mac desktop files
+.DS_Store
+
+# temporary Opusmodus files
+*.opmo~
+*.lisp~
+
+# temporary Reaper files
+*.RPP-bak
+*.reapeaks
+
+# compiled PWGL lisp files
+*.clufasl
+
+# lib directories (and its subdirectories)
+lib/**
+
 *.FASL
 *.fasl
 *.lisp-temp
