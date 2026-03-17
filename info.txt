@@ -1,0 +1,9 @@
+Achim Bornhoeft;
+Nachbild (2022);
+for Fl, Cl, Vl, Vc, Pno, Perc & Live Electronics;
+All rights reserved © 2022;
+===================================================;
+Pure Data Vanilla (Version PD-0.56-2)
+===================================================;
+Further information under:;
+bornhoeft.org/works/nachbild;

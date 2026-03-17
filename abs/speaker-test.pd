@@ -15,8 +15,8 @@
 #X obj 162 216 *~ 0.15;
 #X obj 337 271 print out;
 #X obj 54 5 cnv 16 106 64 empty empty Speaker 20 12 0 14 #ffffff #404040 0;
-#X obj 23 49 tgl 20 0 speaker-out-dummy speaker-in-dummy on/off -5 -8 0 12 #ffc7c6 #ff0400 #000000 0 1;
-#X obj 71 49 hradio 20 1 1 2 speaker-radio-send-dummy speaker-radio-receive-dummy 2\ \ 8\ ch 4 -8 0 13 #fcfcfc #ff0400 #000000 1;
+#X obj 23 49 tgl 20 0 speaker-out-dummy speaker-in-dummy on/off -5 -8 0 12 #c6ffc7 #ff0400 #000000 0 1;
+#X obj 71 49 hradio 20 1 1 2 speaker-radio-send-dummy speaker-radio-receive-dummy 2\ \ 8\ ch 4 -8 0 13 #fcfcfc #202020 #000000 1;
 #X floatatom 155 30 1 0 0 0 - speaker-number speaker-number-send-dummy 36;
 #X obj 372 183 s speaker-number;
 #X obj 320 44 sel 0 1;
@@ -27,6 +27,8 @@
 #X obj 196 325 / 127;
 #X obj 1 5 cnv 16 20 20 empty empty Test 20 12 0 14 #ffffff #404040 0;
 #X obj 137 6 cnv 16 20 20 empty empty Ch 20 12 0 14 #ffffff #404040 0;
+#X obj 239 14 loadbang;
+#X msg 239 35 1;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 1 0 6 0;
@@ -53,4 +55,6 @@
 #X connect 23 0 10 0;
 #X connect 24 0 25 0;
 #X connect 25 0 23 1;
+#X connect 28 0 29 0;
+#X connect 29 0 17 0;
 #X coords 0 -1 1 1 200 80 2 0 0;

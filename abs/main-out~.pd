@@ -1,5 +1,5 @@
 #N canvas 692 281 360 317 12;
-#X obj 30 48 vsl 30 119 0 127 0 0 \$0-vol-r \$0-vol-s 127 2 130 0 10 #ffffff #000000 #000000 0 1;
+#X obj 30 48 vsl 30 119 0 127 0 0 \$0-vol-r \$0-vol-s 0 2 130 0 10 #404040 #ffffff #000000 0 1;
 #X obj 12 18 cnv 10 40 10 empty \$1-name Main\ Vol 0 5 0 14 #ffffff #000000 0;
 #N canvas 700 486 182 247 guilabel 0;
 #X msg 43 114 label \$1;
